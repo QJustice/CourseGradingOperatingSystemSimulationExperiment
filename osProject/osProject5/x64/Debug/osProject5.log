@@ -1,0 +1,3 @@
+﻿  os5.cpp
+D:\WorkSpace\VSFILE\osProject\osProject5\os5.cpp(247,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  osProject5.vcxproj -> D:\WorkSpace\VSFILE\osProject\osProject5\x64\Debug\osProject5.exe

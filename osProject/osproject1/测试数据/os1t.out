@@ -1,0 +1,990 @@
+
+请输入进程的个数?
+4
+
+进程号No.1:
+
+输入进程名:a
+
+输入进程运行时间:50
+
+
+进程号No.2:
+
+输入进程名:b
+
+输入进程运行时间:50
+
+
+进程号No.3:
+
+输入进程名:c
+
+输入进程运行时间:50
+
+
+进程号No.4:
+
+输入进程名:d
+
+输入进程运行时间:50
+
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |1
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|c       |w      |50     |0
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+c
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |2
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|c       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |3
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|c       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+d
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |4
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|c       |b      |50     |0
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |5
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|c       |b      |50     |0
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+b
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |6
+
+****当前就绪队列状态为:
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|c       |b      |50     |0
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |7
+
+****当前就绪队列状态为:
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|c       |b      |50     |0
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+a
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|c       |b      |50     |0
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |7
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|c       |b      |50     |0
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |7
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...w
+请输入需要唤醒塞的进程名：
+c
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |1
+
+****当前就绪队列状态为:
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |7
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |2
+
+****当前就绪队列状态为:
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |7
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...w
+请输入需要唤醒塞的进程名：
+a
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |3
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |4
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...w
+请输入需要唤醒塞的进程名：
+d
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |5
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |6
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...w
+请输入需要唤醒塞的进程名：
+b
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |7
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |8
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+a
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |9
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|a       |b      |50     |7
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |10
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|a       |b      |50     |7
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...w
+请输入需要唤醒塞的进程名：
+a
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |11
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+****当前就阻塞队列状态为:
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |12
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+****当前就阻塞队列状态为:
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+d
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |13
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |14
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+a
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |15
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |7
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |16
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |7
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+b
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |17
+
+****当前就绪队列状态为:
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |7
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |18
+
+****当前就绪队列状态为:
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |7
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...w
+请输入需要唤醒塞的进程名：
+a
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |19
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |20
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...w
+请输入需要唤醒塞的进程名：
+d
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |21
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |22
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |50     |7
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+c
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |8
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|c       |b      |50     |22
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |9
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|c       |b      |50     |22
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+d
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |10
+
+****当前就绪队列状态为:
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|c       |b      |50     |22
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |11
+
+****当前就绪队列状态为:
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|c       |b      |50     |22
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...w
+请输入需要唤醒塞的进程名：
+c
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |12
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|c       |w      |50     |22
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |13
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|c       |w      |50     |22
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|d       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...w
+请输入需要唤醒塞的进程名：
+d
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |14
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|c       |w      |50     |22
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |50     |15
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|c       |w      |50     |22
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+a
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |23
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |15
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |50     |24
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|d       |w      |50     |0
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |15
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...s
+请输入需要阻塞的进程名：
+c
+
+The execute name:d
+
+ ****当前正在运行的进程是:d
+name     state   ntime   rtime
+|d       |R      |50     |1
+
+****当前就绪队列状态为:
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |15
+
+name     state   ntime   rtime
+|c       |b      |50     |24
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...
+The execute name:d
+
+ ****当前正在运行的进程是:d
+name     state   ntime   rtime
+|d       |R      |50     |2
+
+****当前就绪队列状态为:
+
+****当前就阻塞队列状态为:
+
+name     state   ntime   rtime
+|b       |b      |50     |0
+
+name     state   ntime   rtime
+|a       |b      |50     |15
+
+name     state   ntime   rtime
+|c       |b      |50     |24
+
+按i键添加新进程...s键阻塞进程...w键唤醒进程
+按其他任意键继续运行...w
+请输入需要唤醒塞的进程名：
+b

@@ -1,0 +1,447 @@
+
+请输入进程的个数?
+5
+
+进程号No.1:
+
+输入进程名:a
+
+输入进程运行时间:10
+
+
+进程号No.2:
+
+输入进程名:b
+
+输入进程运行时间:50
+
+
+进程号No.3:
+
+输入进程名:c
+
+输入进程运行时间:5
+
+
+进程号No.4:
+
+输入进程名:d
+
+输入进程运行时间:30
+
+
+进程号No.5:
+
+输入进程名:e
+
+输入进程运行时间:60
+
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |5      |1
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |10     |0
+
+name     state   ntime   rtime
+|d       |w      |30     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|e       |w      |60     |0
+
+按i键添加新进程....按其他任意键继续运行...i
+
+请输入进程的个数?
+2
+
+进程号No.1:
+
+输入进程名:h
+
+输入进程运行时间:3
+
+
+进程号No.2:
+
+输入进程名:i
+
+输入进程运行时间:40
+
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |5      |2
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|h       |w      |3      |0
+
+name     state   ntime   rtime
+|a       |w      |10     |0
+
+name     state   ntime   rtime
+|d       |w      |30     |0
+
+name     state   ntime   rtime
+|i       |w      |40     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|e       |w      |60     |0
+
+按i键添加新进程....按其他任意键继续运行...i
+
+请输入进程的个数?
+1
+
+进程号No.1:
+
+输入进程名:j
+
+输入进程运行时间:70
+
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |5      |3
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|h       |w      |3      |0
+
+name     state   ntime   rtime
+|a       |w      |10     |0
+
+name     state   ntime   rtime
+|d       |w      |30     |0
+
+name     state   ntime   rtime
+|i       |w      |40     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|e       |w      |60     |0
+
+name     state   ntime   rtime
+|j       |w      |70     |0
+
+按i键添加新进程....按其他任意键继续运行...r
+
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |5      |4
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|h       |w      |3      |0
+
+name     state   ntime   rtime
+|a       |w      |10     |0
+
+name     state   ntime   rtime
+|d       |w      |30     |0
+
+name     state   ntime   rtime
+|i       |w      |40     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|e       |w      |60     |0
+
+name     state   ntime   rtime
+|j       |w      |70     |0
+
+按i键添加新进程....按其他任意键继续运行...
+The execute name:c
+
+ ****当前正在运行的进程是:c
+name     state   ntime   rtime
+|c       |R      |5      |5
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|h       |w      |3      |0
+
+name     state   ntime   rtime
+|a       |w      |10     |0
+
+name     state   ntime   rtime
+|d       |w      |30     |0
+
+name     state   ntime   rtime
+|i       |w      |40     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|e       |w      |60     |0
+
+name     state   ntime   rtime
+|j       |w      |70     |0
+
+进程[c]已完成.
+
+按i键添加新进程....按其他任意键继续运行...i
+
+请输入进程的个数?
+5
+
+进程号No.1:
+
+输入进程名:k
+
+输入进程运行时间:2
+
+
+进程号No.2:
+
+输入进程名:l
+
+输入进程运行时间:55
+
+
+进程号No.3:
+
+输入进程名:m
+
+输入进程运行时间:80
+
+
+进程号No.4:
+
+输入进程名:n
+
+输入进程运行时间:1
+
+
+进程号No.5:
+
+输入进程名:o
+
+输入进程运行时间:99
+
+
+The execute name:n
+
+ ****当前正在运行的进程是:n
+name     state   ntime   rtime
+|n       |R      |1      |1
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|k       |w      |2      |0
+
+name     state   ntime   rtime
+|h       |w      |3      |0
+
+name     state   ntime   rtime
+|a       |w      |10     |0
+
+name     state   ntime   rtime
+|d       |w      |30     |0
+
+name     state   ntime   rtime
+|i       |w      |40     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|l       |w      |55     |0
+
+name     state   ntime   rtime
+|e       |w      |60     |0
+
+name     state   ntime   rtime
+|j       |w      |70     |0
+
+name     state   ntime   rtime
+|m       |w      |80     |0
+
+name     state   ntime   rtime
+|o       |w      |99     |0
+
+进程[n]已完成.
+
+按i键添加新进程....按其他任意键继续运行...r
+
+The execute name:k
+
+ ****当前正在运行的进程是:k
+name     state   ntime   rtime
+|k       |R      |2      |1
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|h       |w      |3      |0
+
+name     state   ntime   rtime
+|a       |w      |10     |0
+
+name     state   ntime   rtime
+|d       |w      |30     |0
+
+name     state   ntime   rtime
+|i       |w      |40     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|l       |w      |55     |0
+
+name     state   ntime   rtime
+|e       |w      |60     |0
+
+name     state   ntime   rtime
+|j       |w      |70     |0
+
+name     state   ntime   rtime
+|m       |w      |80     |0
+
+name     state   ntime   rtime
+|o       |w      |99     |0
+
+按i键添加新进程....按其他任意键继续运行...
+The execute name:k
+
+ ****当前正在运行的进程是:k
+name     state   ntime   rtime
+|k       |R      |2      |2
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|h       |w      |3      |0
+
+name     state   ntime   rtime
+|a       |w      |10     |0
+
+name     state   ntime   rtime
+|d       |w      |30     |0
+
+name     state   ntime   rtime
+|i       |w      |40     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|l       |w      |55     |0
+
+name     state   ntime   rtime
+|e       |w      |60     |0
+
+name     state   ntime   rtime
+|j       |w      |70     |0
+
+name     state   ntime   rtime
+|m       |w      |80     |0
+
+name     state   ntime   rtime
+|o       |w      |99     |0
+
+进程[k]已完成.
+
+按i键添加新进程....按其他任意键继续运行...
+
+The execute name:h
+
+ ****当前正在运行的进程是:h
+name     state   ntime   rtime
+|h       |R      |3      |1
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |10     |0
+
+name     state   ntime   rtime
+|d       |w      |30     |0
+
+name     state   ntime   rtime
+|i       |w      |40     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|l       |w      |55     |0
+
+name     state   ntime   rtime
+|e       |w      |60     |0
+
+name     state   ntime   rtime
+|j       |w      |70     |0
+
+name     state   ntime   rtime
+|m       |w      |80     |0
+
+name     state   ntime   rtime
+|o       |w      |99     |0
+
+按i键添加新进程....按其他任意键继续运行...
+
+The execute name:h
+
+ ****当前正在运行的进程是:h
+name     state   ntime   rtime
+|h       |R      |3      |2
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|a       |w      |10     |0
+
+name     state   ntime   rtime
+|d       |w      |30     |0
+
+name     state   ntime   rtime
+|i       |w      |40     |0
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+name     state   ntime   rtime
+|l       |w      |55     |0
+
+name     state   ntime   rtime
+|e       |w      |60     |0
+
+name     state   ntime   rtime
+|j       |w      |70     |0
+
+name     state   ntime   rtime
+|m       |w      |80     |0
+
+name     state   ntime   rtime
+|o       |w      |99     |0
+
+按i键添加新进程....按其他任意键继续运行...

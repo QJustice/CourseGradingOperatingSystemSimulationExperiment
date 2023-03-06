@@ -1,0 +1,107 @@
+
+请输入进程的个数?
+1
+
+进程号No.1:
+
+输入进程名:a
+
+输入进程运行时间:10
+
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |10     |1
+
+****当前就绪队列状态为:
+
+按i键添加新进程....按其他任意键继续运行...i
+
+请输入进程的个数?
+1
+
+进程号No.1:
+
+输入进程名:b
+
+输入进程运行时间:50
+
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |10     |2
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+按i键添加新进程....按其他任意键继续运行...r
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |10     |3
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+按i键添加新进程....按其他任意键继续运行...
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |10     |4
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+按i键添加新进程....按其他任意键继续运行...
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |10     |5
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+按i键添加新进程....按其他任意键继续运行...
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |10     |6
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+按i键添加新进程....按其他任意键继续运行...
+
+The execute name:a
+
+ ****当前正在运行的进程是:a
+name     state   ntime   rtime
+|a       |R      |10     |7
+
+****当前就绪队列状态为:
+
+name     state   ntime   rtime
+|b       |w      |50     |0
+
+按i键添加新进程....按其他任意键继续运行...
